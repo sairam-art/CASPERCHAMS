@@ -1,0 +1,78 @@
+
+:root {
+  --main-color: #f6c1d5;
+  --accent-color: #b0d8e4;
+  --text-color: #333;
+  --bg-color: #fff8fc;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+}
+
+header {
+  background: linear-gradient(to right, #f6c1d5, #b0d8e4);
+  padding: 20px;
+  text-align: center;
+}
+
+header img {
+  max-width: 200px;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5rem;
+  margin: 10px 0 5px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.gallery-item {
+  text-align: center;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.gallery-title {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+  background: #f0f0f0;
+}
